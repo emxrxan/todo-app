@@ -1,0 +1,10 @@
+.input-container{
+    width: 65%;
+    margin: auto;
+}
+
+@media (max-width:425px) {
+    .input-container{
+        width: 90%;
+    }
+}

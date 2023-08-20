@@ -1,0 +1,13 @@
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-left: 18%;
+}
+
+@media (max-width:425px) {
+    .button-container{
+        margin-left: 6%;
+    }
+}

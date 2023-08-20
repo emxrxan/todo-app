@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(101, 101, 101);
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+p{
+    padding: 1rem;
+}
+
+.betonung{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: cadetblue;
+}

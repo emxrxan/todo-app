@@ -1,0 +1,49 @@
+.eintrag-container{
+    width: 90%;
+    border: 1px solid black;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eintrag-label{
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.label-content{
+    max-width: 470px;
+}
+
+.lablel-input-hover:hover{
+    cursor: pointer;
+}
+
+@media (max-width:725px) {
+    .eintrag-label{
+        min-width: 250px;
+    }
+    .label-content{
+        max-width: 400px;
+    }
+}
+
+@media (max-width:615px) {
+    .eintrag-container{
+        flex-direction: column;
+        width: 70%;
+    }
+    .label-content{
+        max-width: 250px;
+    }
+}
+
+@media (max-width:425px) {
+    .eintrag-container{
+        width: 90%;
+    }
+}
